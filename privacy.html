@@ -105,8 +105,11 @@ footer {
 <p>Coordinates and radii for areas you watch, the contents of Trip Packs you save for offline use, and the time, status and location of check-ins you send.</p>
 <h3>Photos</h3>
 <p>Photos you attach to reports are uploaded to our storage and are visible with the report. Photos may carry information about where and when they were taken.</p>
-<h3>Membership</h3>
-<p>If you redeem a promotional code or hold a membership, we store which tier you have, how you got it, and when it expires. Payments, if and when they are offered, are handled by Apple; we do not receive or store your card details.</p>
+<h3>Membership and subscriptions</h3>
+<p>If you redeem a promotional code or hold a membership, we store which tier you have, how you got it, and when it expires.</p>
+<p><strong>Payment itself is handled by Apple.</strong> We never receive, see or store your card details.</p>
+<p>Subscriptions are managed for us by <strong>RevenueCat</strong>, a subscription service provider. When you subscribe, restore a purchase, or your subscription renews or lapses, RevenueCat receives your account identifier — the same random id our database uses for you, not your name or email — along with which product you bought and when it expires. That is what lets your subscription follow you to a new phone instead of you paying twice. RevenueCat's privacy policy governs what they do with it.</p>
+<p>We do not use RevenueCat, or anything else, to build a profile of you or to track you across other apps.</p>
 <hr>
 <h2>What we do <strong>not</strong> do</h2>
 <ul><li>No advertising, anywhere in the app.</li><li>No analytics, tracking, attribution or crash-reporting SDKs. <em>(True as of this draft — this section must be revisited the moment one is added.)</em></li><li>No selling or renting of personal information.</li><li>No background location tracking.</li><li>No third-party sign-in providers that share your profile with them.</li></ul>
@@ -115,7 +118,7 @@ footer {
 <p>The app requests public data from government and scientific sources. <strong>Each of these requests includes the area of the map you are looking at</strong>, because it has to in order to answer. It does not include your identity, your account, or your exact position.</p>
 <ul><li>National Weather Service (weather.gov)</li><li>NASA FIRMS (satellite fire detections)</li><li>National Park Service</li><li>U.S. Geological Survey (earthquakes, stream gauges)</li><li>Avalanche.org and its member forecast centres</li><li>iNaturalist (species observations)</li><li>CARTO, Esri and OpenTopoMap (map tiles)</li></ul>
 <p>These requests are proxied through our own servers where possible, which means those organisations generally see our server rather than your device. Their own privacy policies govern what they do with what they receive.</p>
-<p>Our backend — database, authentication and file storage — is provided by <strong>Supabase</strong>.</p>
+<p>Our backend — database, authentication and file storage — is provided by <strong>Supabase</strong>. Subscriptions are handled by <strong>RevenueCat</strong> (see "Membership and subscriptions" above), and payment by <strong>Apple</strong>.</p>
 <hr>
 <h2>Keeping and deleting your data</h2>
 <p>We keep your account data while your account exists.</p>
