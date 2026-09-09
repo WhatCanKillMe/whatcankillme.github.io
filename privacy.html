@@ -77,70 +77,97 @@ footer {
   <nav>
     <a href="./">Home</a>
     <a href="./privacy.html" aria-current="page">Privacy Policy</a>
-    <a href="./terms.html">Terms of Service</a>
+    <a href="./terms.html">Terms of Use</a>
   </nav>
 </header>
 <main class="wrap">
 <h1>Privacy Policy — What Can Kill Me</h1>
-<p><strong>Effective date:</strong> 5 September 2026</p>
-<p><strong>Contact:</strong> admin@whatcankillmeapp.com</p>
+<p><strong>Effective date:</strong> 9 September 2026</p>
+<p><strong>Who we are:</strong> What Can Kill Me, P.O. Box 300184, Escondido, CA 92030, United States. Email: admin@whatcankillmeapp.com.</p>
+<p>This policy covers the What Can Kill Me iPhone app. The website at whatcankillmeapp.com has its own, separate privacy notice.</p>
 <hr>
 <h2>The short version</h2>
-<p>What Can Kill Me collects the account details you give us, the hazard reports you choose to file, and the location data attached to them. We do not run advertising, we do not use analytics or tracking SDKs, and we do not sell or share your personal information with anyone for marketing.</p>
-<p>Some of what you put into this app is deliberately public: a hazard report is meant to be seen by other people, and that is the point of filing one. Everything else — your contacts, your saved places, your check-ins — is yours.</p>
+<p>What Can Kill Me collects the account details you give us, the hazard reports you choose to file, and the location data attached to them. We do not run advertising, we do not use analytics, attribution, or cross-app tracking, and we do not sell your personal information or share it with anyone for their own marketing.</p>
+<p>Some of what you put into this app is deliberately public: a hazard report is meant to be seen by other people, and that is the point of filing one. Everything else — your trusted contacts, your Alert Places, your Trip Packs, your check-ins — is private to your account.</p>
+<p>The app is offered in the United States. See "Where the app is offered."</p>
 <hr>
 <h2>What we collect, and why</h2>
 <h3>Account</h3>
-<ul><li><strong>Email address and password.</strong> Used to sign you in. Passwords are handled by our authentication provider (Supabase) and are stored hashed; we never see them.</li><li><strong>Username and avatar.</strong> Shown next to reports you file.</li><li><strong>Trust score, badge and report counts.</strong> Calculated from your activity.</li></ul>
+<ul><li><strong>Email address and password.</strong> Used to sign you in. Passwords are handled by our authentication provider (Supabase) and are stored hashed; we never see them.</li><li><strong>Username and avatar icon.</strong> Shown next to reports you file, unless you hide your username on a report.</li><li><strong>Trust score, badges, and report counts.</strong> Calculated from your activity in the app.</li><li><strong>Your acceptance of the Terms of Use and this policy.</strong> We record which version you accepted, when, and from which app build, so we can show that you agreed and tell you when something material changes.</li></ul>
 <h3>Hazard reports — public by design</h3>
-<p>When you file a report we store the hazard category, severity, your written description, any photo you attach, and <strong>the GPS coordinates, altitude and accuracy at the moment you filed it</strong>, along with the time. We also store how the position was obtained — your phone's GPS, or a pin you placed on the map — and, for a placed pin, how far you were from it when you filed; for a GPS position we store the compass heading your phone reported. All of this is part of the public report.</p>
-<p><strong>Reports are visible to other people using the app,</strong> together with your username and trust score. Do not put anything in a description or photo that you would not want a stranger to read. The coordinates on a report say where the hazard was marked — where you were standing, or the spot you pointed to on the map — and they stay public. *Hide my name* removes your username from a report; it does not remove the report's position or the time it was filed, and neither does deleting your account (see "Keeping and deleting your data").</p>
+<p>A hazard report is a warning for other people, so it is public. When you file one we store, and other people can see:</p>
+<ul><li>the hazard category, subcategory, and specific hazard, including any label you typed for "Other / Not Listed";</li><li>the severity you chose;</li><li>your written description;</li><li>any photo you attach;</li><li><strong>the report's coordinates</strong> — either where your phone was when you filed it ("My location") or the spot you pointed to on the map;</li><li>whether the position came from your phone or from a pointed pin;</li><li>the time the report was filed, to the minute;</li><li>your altitude, rounded to the nearest 100 feet, your phone's GPS accuracy as a band (good, fair, rough), and, for a pointed pin, roughly how far you were from it (close, at a distance, far away);</li><li>the report's status and how many other people have confirmed it;</li><li><strong>your username, avatar, and trust score,</strong> unless you chose to hide your username on that report.</li></ul>
+<p>Your phone's compass heading is stored with a report but is not shown to anyone.</p>
+<p><strong>A "My location" report publishes where you were standing.</strong> The app tells you this on the Report screen and offers "Point on the map" instead. If you are at home, at a campsite, or at your car, point on the map.</p>
+<p><strong>Hiding your username does not necessarily make a report anonymous.</strong> It removes your username, avatar, trust score, and photo from what other people see. The location, time, and description stay public, and together they may still let someone work out who filed the report. Do not put anything in a description or photo that you would not want a stranger to read.</p>
+<p><strong>Photos.</strong> We remove embedded metadata, such as EXIF location and camera data, before a photo is stored. Photos are stored in a public bucket and are visible with the report. Do not photograph people in a way that identifies them without their agreement.</p>
 <h3>Location</h3>
-<p>We ask for location only while the app is in use. It is used to:</p>
-<ul><li>center the map on you and show how far away hazards are;</li><li>attach coordinates to a report you file;</li><li>attach coordinates to a safety check-in, if you choose to send one;</li><li>work out sunset and remaining daylight where you are (this happens entirely on your device — the coordinates are not sent anywhere for it).</li></ul>
-<p>We do not track your location in the background. The only positions we keep are the ones you choose to send: the coordinates on a report you file, and the coordinates on a safety check-in. Your check-ins — their time, status and location — stay in your account, visible only to you under *Check-in history* on the Check In screen, until you delete your account. We keep no other record of where you have been.</p>
-<h3>Trusted contacts</h3>
-<p>Names, phone numbers and the relationship you enter for check-in contacts (such as "Spouse" or "Friend") are stored on our servers so they are there on your next device, and a copy is kept on your phone so Need Help can work without a data connection. <strong>We never send messages on your behalf</strong> — tapping "I'm Safe" or "Need Help" opens your own phone's messaging app with a message prepared, and nothing is sent until you send it. The message goes directly from your phone to your contacts and does not pass through us.</p>
-<h3>Places, Trip Packs and check-ins</h3>
-<p>Coordinates and radii for areas you watch, the contents of Trip Packs you save for offline use, and the time, status and location of check-ins you send.</p>
-<h3>Photos</h3>
-<p>Photos you attach to reports are uploaded to our storage and are visible with the report. Photos may carry information about where and when they were taken.</p>
-<h3>Membership and subscriptions</h3>
-<p>If you redeem a promotional code or hold a membership, we store which tier you have, how you got it, and when it expires.</p>
-<p><strong>Payment itself is handled by Apple.</strong> We never receive, see or store your card details.</p>
-<p>Subscriptions are managed for us by <strong>RevenueCat</strong>, a subscription service provider. Each time you open the app signed in, it checks with RevenueCat whether you hold an active subscription; RevenueCat receives your account identifier — the same random id our database uses for you, not your name or email — together with the details any server sees when a phone connects to it (your IP address and device model). When you subscribe, restore a purchase, or your subscription renews or lapses, it also receives which product you bought and when it expires. That is what lets your subscription follow you to a new phone instead of you paying twice. RevenueCat's privacy policy governs what they do with it.</p>
-<p>We do not use RevenueCat, or anything else, to build a profile of you or to track you across other apps.</p>
+<p>We ask for your location only while the app is in use. It is used to:</p>
+<ul><li>center the map on you and show how far away hazards are;</li><li>attach coordinates to a report you file, if you choose "My location";</li><li>attach coordinates to a safety check-in, if you choose to send one;</li><li>check whether a new report falls inside one of your Alert Places;</li><li>work out sunset and remaining daylight where you are — this happens entirely on your phone; the coordinates are not sent anywhere for it.</li></ul>
+<p>We do not track your location in the background, and we keep no record of where you have been. The only positions we store are the ones you choose to send: the coordinates on a report you file, the coordinates on a safety check-in, and the centers of Alert Places and Trip Packs you save.</p>
+<h3>Safety check-ins and trusted contacts</h3>
+<p>Trusted contacts are the names, phone numbers, and relationships (such as "Spouse" or "Friend") you enter for check-ins. They are stored in your account so they are there on your next phone, and a copy is kept on your phone so Need Help works without a data connection. By adding a contact you confirm that you have that person's agreement to receive check-in messages from you.</p>
+<p><strong>We never send messages on your behalf.</strong> Tapping "I'm Safe" or "Need Help" opens your own phone's messaging app with a message prepared — your status, your location, and a map link — and nothing is sent until you send it. The message goes directly from your phone to your contacts and does not pass through us.</p>
+<p>Each check-in you send — its time, status, and location — is stored in your account, visible only to you under Check-in history, until you delete your account.</p>
+<h3>Alert Places and Trip Packs</h3>
+<p>The name, center, radius, and hazard filter of each Alert Place you save, and the area and contents of each Trip Pack you save for offline use. Private to your account. A copy is kept on your phone for offline use.</p>
+<h3>Premium membership</h3>
+<p>If you subscribe to Premium, we store which plan you hold and when it expires.</p>
+<p><strong>Payment is handled by Apple.</strong> We never receive, see, or store your card details. Subscriptions are managed for us by <strong>RevenueCat</strong>, a subscription service provider. RevenueCat processes subscription and purchase information — which product you bought, when it renews or expires, and your account identifier (the same random id our database uses for you, not your name or email) — together with the details any server sees when a phone connects to it, such as your IP address and device model. That is what lets your subscription follow you to a new phone. RevenueCat's privacy policy governs what it does with this information.</p>
+<p>We do not use behavioral analytics, advertising, attribution, or cross-app tracking SDKs, and we do not use RevenueCat or anything else to build a profile of you.</p>
+<h3>Content reports and blocks</h3>
+<p>If you report another person's content, we store which report you flagged, the reason, your note, and your account id. If you block an account, we store the block so the app can hide that account's reports from you.</p>
+<h3>Device, network, and security information</h3>
+<p>Like any online service, our providers see the technical details of a connection: your IP address, device type, operating system version, app version, and the time of each request. Our authentication provider keeps a security log of sign-ins, sign-outs, and session refreshes with the IP address and device details, and our hosting provider keeps short-lived request logs for the app's server functions. These are used to run the service, keep it secure, and diagnose problems. We do not use them to profile or track you.</p>
+<h3>Queued reports on your phone</h3>
+<p>If you file a report without a connection, it is saved on your phone — including its description, coordinates, and photo — until the app next opens with a connection and sends it. Queued reports are yours: they leave your phone only when they are sent.</p>
 <hr>
 <h2>What we do <strong>not</strong> do</h2>
-<ul><li>No advertising, anywhere in the app.</li><li>No analytics, tracking, attribution or crash-reporting SDKs. <em>(True as of this draft — this section must be revisited the moment one is added.)</em></li><li>No selling or renting of personal information.</li><li>No background location tracking.</li><li>No third-party sign-in providers that share your profile with them.</li></ul>
+<ul><li>No advertising, anywhere in the app.</li><li>No analytics, attribution, crash-reporting, or tracking SDKs. (True as of this version — this section will be revised the moment one is added.)</li><li>No selling of personal information, and no sharing of it for anyone else's marketing.</li><li>No background location tracking.</li><li>No third-party sign-in providers.</li><li>No push notifications. Alerts are checked when the app is open.</li></ul>
 <hr>
-<h2>Other services the app talks to</h2>
-<p>The app requests public data from government and scientific sources. <strong>Each of these requests includes the area of the map you are looking at</strong>, because it has to in order to answer. It does not include your identity, your account, or your exact position.</p>
-<ul><li>National Weather Service (weather.gov)</li><li>NASA FIRMS (satellite fire detections)</li><li>National Park Service</li><li>U.S. Geological Survey (earthquakes, stream gauges)</li><li>Avalanche.org and its member forecast centers</li><li>iNaturalist (species observations)</li><li>CARTO, Esri and OpenTopoMap (map tiles)</li></ul>
-<p>These requests are proxied through our own servers where possible, which means those organizations generally see our server rather than your device. Their own privacy policies govern what they do with what they receive.</p>
-<p>Our backend — database, authentication and file storage — is provided by <strong>Supabase</strong>. Subscriptions are handled by <strong>RevenueCat</strong> (see "Membership and subscriptions" above), and payment by <strong>Apple</strong>.</p>
-<p>When you report a photo, description or username as offensive or dangerous, the notification to us is sent as an email through <strong>Resend</strong>, an email delivery service. That email contains your username, the username of the person whose content you reported, the reported description and photo, and the note you added. Resend's privacy policy governs what they do with it.</p>
+<h2>How we share information</h2>
+<p><strong>Public content.</strong> Hazard reports, with the elements listed above, are visible to every user of the app. That is their purpose.</p>
+<p><strong>Service providers.</strong> We share information with companies that process it on our behalf, under contracts that limit what they may do with it:</p>
+<ul><li><strong>Supabase</strong> — our database, authentication, file storage, and server functions.</li><li><strong>RevenueCat</strong> — subscription management (see "Premium membership").</li><li><strong>Apple</strong> — payment and the App Store.</li><li><strong>Resend</strong> — email delivery. When you report another person's content, the notification to us is sent as an email. It contains your account id, the reported report's category, severity, and description, the username of the person who filed it (if not hidden), the photo path if the complaint is about the photo, and your reason and note.</li></ul>
+<p><strong>Public data sources.</strong> The app requests public data from government and scientific sources. Each of these requests includes the area of the map you are looking at, because it has to in order to answer. It does not include your identity, your account, or your exact position:</p>
+<ul><li>National Weather Service (weather.gov)</li><li>NASA FIRMS (satellite fire detections)</li><li>National Park Service</li><li>U.S. Geological Survey (earthquakes, stream gauges)</li><li>Avalanche.org and its member forecast centers</li><li>iNaturalist (species observations)</li><li>CARTO, Esri, and OpenTopoMap (map tiles)</li></ul>
+<p>Where possible these requests go through our own servers, so those organizations see our server rather than your phone. Their own privacy policies govern what they do with what they receive.</p>
+<p><strong>Legal and safety.</strong> We may disclose information if we believe in good faith that it is required by law or legal process, or that it is necessary to protect someone's life or safety, to enforce our Terms of Use, or to protect the rights or property of What Can Kill Me or others.</p>
+<p><strong>We do not "sell" or "share" personal information</strong> as those terms are defined in the California Consumer Privacy Act, and we have not done so in the preceding twelve months. Disclosures to the service providers above are made for the purpose of running the service, not for advertising.</p>
 <hr>
-<h2>Keeping and deleting your data</h2>
-<p>We keep your account data while your account exists.</p>
-<p><strong>To delete your account and its data,</strong> open Menu → Delete account in the app. It is immediate and permanent: your profile, contacts, places, trip packs, check-ins, confirmations and badges are removed, and your login is destroyed. There is no recovery period. If you reported another person's content to us, that report is kept for our records without your identity attached.</p>
-<p><strong>Hazard reports are treated differently.</strong> Once other people have relied on a report, removing it silently could leave someone walking into a hazard nobody warned them about. On deletion we detach reports from your identity rather than erasing them, unless you ask us to remove a specific report and we agree it is appropriate.</p>
-<p>You have the right to ask what we hold about you and to ask us to correct it. Depending on where you live you may have further rights, including under the California Consumer Privacy Act or the UK/EU GDPR. Write to us and we will honor them.</p>
+<h2>How long we keep information</h2>
+<ul><li><strong>Account information</strong> (email, username, avatar, badges, trust score, Terms acceptance) — while your account exists, then deleted, except that the record of your Terms acceptance may be kept as long as we need to show that you agreed.</li><li><strong>Trusted contacts, check-ins, Alert Places, Trip Packs, blocks</strong> — until you delete them or delete your account.</li><li><strong>Hazard reports</strong> — while they are on the map. When you delete your account, your reports are de-identified as described in the next section. A report you withdraw is hidden from everyone but you; it stays in the database so you can restore it, and is de-identified when your account is deleted.</li><li><strong>Content reports you made about others</strong> — kept for our moderation records after your account is deleted, without your account id.</li><li><strong>Security and request logs</strong> — kept by our providers for a short rolling period, up to about seven days.</li><li><strong>Backups</strong> — our hosting provider keeps rolling backups for up to about seven days. Deleted information may remain in a backup until it rolls off.</li><li><strong>RevenueCat and Apple</strong> — keep purchase records under their own policies. When you delete your account, we ask RevenueCat to delete your subscriber record. Apple's receipts for your purchases remain with Apple.</li></ul>
+<hr>
+<h2>Deleting your account</h2>
+<p><strong>To delete your account,</strong> open Menu → Delete Account in the app and confirm. There is no recovery period. When you do:</p>
+<ul><li>your login, username, avatar, badges, and trust score are deleted;</li><li>your trusted contacts, check-in history, Alert Places, Trip Packs, blocks, and report confirmations are deleted;</li><li><strong>the description and photo on every hazard report you filed are deleted</strong>, and the photo file is removed from storage;</li><li><strong>the rest of each hazard report stays on the map as a de-identified warning</strong> — the hazard, its severity, its exact location, when it was reported, and its confirmation count — no longer linked to any account.</li></ul>
+<p>We keep the de-identified hazard record because other people plan routes around these warnings. Removing a warning silently could leave someone walking into a hazard nobody told them about, and once the description and photo are gone, what remains describes the hazard, not you.</p>
+<p>Deletion begins immediately. Limited information may remain temporarily in backups and security logs until those roll off, as described above.</p>
+<p><strong>Deleting your account does not cancel a Premium subscription.</strong> Cancel it first in Settings › Apple ID › Subscriptions, or Apple will keep billing you.</p>
+<hr>
+<h2>Your choices and rights</h2>
+<p>You can change your username and avatar, hide or show your username on any report you filed, withdraw or restore any report you filed, delete individual contacts, Alert Places, and Trip Packs, and delete your account, all from inside the app.</p>
+<p>You can ask us what personal information we hold about you, ask us to correct it, or ask us to delete it, by emailing admin@whatcankillmeapp.com. Depending on where you live, you may have further rights under laws such as the California Consumer Privacy Act. We will respond to verified requests as required by applicable law, and we will not treat you differently for exercising them.</p>
+<p>The app does not respond to "Do Not Track" browser signals, because it does not track you across other sites or apps; there is nothing for the signal to switch off. Global Privacy Control signals are honored to the extent the law requires, which today means nothing changes, because we do not sell or share personal information.</p>
+<hr>
+<h2>Where the app is offered</h2>
+<p>The app is offered in the United States, and our providers store your information in the United States. If you use the app from elsewhere, you understand that your information is transferred to and processed in the United States. Before offering the app in other countries, we will add the notices those countries require.</p>
 <hr>
 <h2>Children</h2>
-<p>This app is not directed at children under 13 and we do not knowingly collect their information. If you believe a child has created an account, contact us and we will remove it.</p>
+<p>The app is for adults. You must be 18 or older to create an account, and we do not knowingly collect personal information from anyone under 18. If you believe someone under 18 has created an account, email admin@whatcankillmeapp.com and we will remove it.</p>
 <hr>
-<h2>Security, honestly stated</h2>
-<p>Data is encrypted in transit. Access to your rows is enforced at the database level so one account cannot read another's private data. No system is perfectly secure, and we will not claim otherwise.</p>
+<h2>Security</h2>
+<p>We use safeguards designed to protect your information: encryption in transit, hashed passwords, and database-level rules so that one account cannot read another account's private data. No system can be guaranteed to be secure, and we will not claim otherwise. If we learn of a breach affecting your information, we will notify you as the law requires.</p>
 <hr>
-<h2>Changes</h2>
-<p>If we change this policy we will update the effective date above, and we will tell you in the app if the change is significant.</p>
+<h2>Changes to this policy</h2>
+<p>If we change this policy we will update the effective date above. For material changes we will tell you in the app and, where the law requires it, ask you to accept the new version before you continue.</p>
 <hr>
 <h2>Contact</h2>
+<p>What Can Kill Me P.O. Box 300184 Escondido, CA 92030 United States</p>
 <p>admin@whatcankillmeapp.com</p>
 <footer>
   <p>What Can Kill Me · <a href="mailto:admin@whatcankillmeapp.com">admin@whatcankillmeapp.com</a></p>
-  <p>Effective 5 September 2026.</p>
+  <p>Effective 9 September 2026.</p>
 </footer>
 </main>
 </body>
